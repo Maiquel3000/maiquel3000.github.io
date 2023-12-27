@@ -31,6 +31,7 @@ body {
     margin: 40px auto 20px;
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
+    cursor: default; /* Evita que el cursor cambie al pasar sobre el texto */
 }
 
 #userName {
@@ -43,6 +44,8 @@ body {
     width: 100%;
     text-align: center;
     text-decoration: none;
+    cursor: default; /* Evita que el cursor cambie al pasar sobre el texto */
+    user-select: none; /* Evita que el texto sea seleccionable */
 }
 
 #links {
@@ -93,6 +96,7 @@ body {
     text-align: center;
     cursor: default; /* Evita que el cursor cambie al pasar sobre el texto */
     user-select: none; /* Evita que el texto sea seleccionable */
+}
 
     /*  animation   */
     overflow: hidden;
