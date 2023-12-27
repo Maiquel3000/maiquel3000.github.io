@@ -91,6 +91,8 @@ body {
     font-family: var(--font);
     width: 100%;
     text-align: center;
+    cursor: default; /* Evita que el cursor cambie al pasar sobre el texto */
+    user-select: none; /* Evita que el texto sea seleccionable */
 
     /*  animation   */
     overflow: hidden;
